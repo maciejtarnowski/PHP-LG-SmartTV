@@ -14,7 +14,7 @@ include '../src/SmartTV.php';
  * @param string $address IP Address of TV
  * (optional) @param string $port Port of TV (default is 8080)
  */
-$tv = new SmartTV('192.168.2.103'); // new SmartTV('192.168.2.103', 8080)
+$tv = new LgSmartTv\SmartTV('192.168.2.103'); // new SmartTV('192.168.2.103', 8080)
 
 /**
  * Check if session already created.

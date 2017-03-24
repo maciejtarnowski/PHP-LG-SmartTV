@@ -1,5 +1,7 @@
 <?php
 
+namespace LgSmartTv;
+
 /**
  * ----------------------------------------
  * @title PHP-LG-SmartTV
@@ -10,10 +12,6 @@
  * ----------------------------------------
  * https://github.com/SteveWinfield/PHP-LG-SmartTV
 **/
-
-if (!extension_loaded('curl')) {
-    die ('You have to install/enable curl in order to use this application.');
-}
 
 define ('TV_CMD_POWER', 1);
 define ('TV_CMD_NUMBER_0', 2);
