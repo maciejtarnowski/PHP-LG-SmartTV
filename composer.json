@@ -1,0 +1,26 @@
+{
+    "name": "maciejtarnowski/lg-smarttv",
+    "description": "PHP API for the remote control of LG SmartTV (2012+)",
+    "homepage": "https://github.com/maciejtarnowski/php-lg-smarttv",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Steve Winfield",
+            "homepage": "https://github.com/SteveWinfield",
+            "role": "developer"
+        },
+        {
+            "name": "Maciej Tarnowski",
+            "homepage": "http://tarnowski.it",
+            "role": "developer"
+        }
+    ],
+    "require": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LgSmartTv\\": "src/"
+        }
+    }
+}
